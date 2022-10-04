@@ -19,6 +19,7 @@ const App = () => {
     } else if (selected === '') {
       Alert.alert('Warning', 'Please select your role');
     } else if (name || selected) {
+      Alert.alert('Success', 'well done, you can sign in now');
       const form = {
         name,
         selected,
