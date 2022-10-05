@@ -1,4 +1,4 @@
-import {View, Text, StyleSheet, TextInput, Button, Alert} from 'react-native';
+import {View, Text, StyleSheet, TextInput, Button} from 'react-native';
 import React, {useState} from 'react';
 
 const Faktorial = () => {
